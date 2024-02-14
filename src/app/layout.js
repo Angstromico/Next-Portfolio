@@ -7,14 +7,15 @@ const inter = Inter({ subsets: ['latin'] })
 /* How do I use and opengraph-image and twitter-image here? https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image */
 
 export const metadata = {
+  metadataBase: new URL('https://manuel-next-portfolio.netlify.app'),
   title: 'Manuel Dev Portfolio App',
   description: 'Animated portfolio page',
   openGraph: {
     images: [
       {
         url: '/opengraph-image.png',
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: 'Manuel Dev Portfolio App',
       },
     ],
@@ -24,8 +25,8 @@ export const metadata = {
     images: [
       {
         url: '/twitter-image',
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: 'Manuel Dev Portfolio App',
       },
     ],
