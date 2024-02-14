@@ -16,6 +16,11 @@ const AboutPage = () => {
   const experienceRef = useRef()
   const isExperienceRefInView = useInView(experienceRef, { margin: '-100px' })
 
+  const text =
+    "My initial forays into programming sparked a passion for building meaningful web experiences. From the fundamentals of PHP and JavaScript, I've evolved to explore cutting-edge technologies like Deep Learning and Natural Language Processing. Whether shaping dynamic interfaces with Next.js or leveraging the power of WordPress with modern JavaScript frameworks like React.js, I'm constantly seeking innovative solutions. Join me as I push the boundaries of web development, where creativity meets possibility!"
+
+  const quote = '"Technology, deeply applied, is magic." - John Sculley'
+
   return (
     <motion.div
       className='h-full'
@@ -40,20 +45,9 @@ const AboutPage = () => {
             {/* BIOGRAPHY TITLE */}
             <h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
-            <p className='text-lg'>
-              My initial forays into programming sparked a passion for building
-              meaningful web experiences. From the fundamentals of PHP and
-              JavaScript, I've evolved to explore cutting-edge technologies like
-              Deep Learning and Natural Language Processing. Whether shaping
-              dynamic interfaces with Next.js or leveraging the power of
-              WordPress with modern JavaScript frameworks like React.js, I'm
-              constantly seeking innovative solutions. Join me as I push the
-              boundaries of web development, where creativity meets possibility!
-            </p>
+            <p className='text-lg'>{text}</p>
             {/* BIOGRAPHY QUOTE */}
-            <span className='italic'>
-              "Technology, deeply applied, is magic." - John Sculley
-            </span>
+            <span className='italic'>{quote}</span>
 
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg

@@ -24,8 +24,9 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className='md:text-xl italic'>
-            Welcome to my digital playground! Explore my creations and dive into
-            the worlds I've built through code and design.
+            {
+              "Welcome to my digital playground! Explore my creations and dive into the worlds I've built through code and design."
+            }
           </p>
           {/* BUTTONS */}
           <div className='w-full flex gap-4'>
