@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#light {
+  left: 0;
+}
+
+#light canvas {
+  background-color: LightCyan;
+}
+
+#dark {
+  right: 0;
+}
+
+#dark canvas {
+  background-color: MidnightBlue;
+}
