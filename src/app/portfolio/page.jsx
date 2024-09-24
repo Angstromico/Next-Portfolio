@@ -24,10 +24,10 @@ const items = [
   {
     id: 3,
     color: 'from-violet-300 to-purple-300',
-    title: 'Logitsa Web Page',
-    desc: 'Another page for a company from Costa Rica, in this case an air transport company called Logitsa, this page was made in react in part of the Front-en and Strapi in the Back.',
-    img: '/logitsa.png',
-    link: 'https://logitsa.com',
+    title: 'Clima Ideal',
+    desc: 'I developed a website for a leading air conditioning company in Costa Rica, using TypeScript and React for a dynamic and responsive front-end experience. The back-end was powered by Strapi, providing a flexible and efficient CMS solution. This project focused on showcasing the company’s services and expertise while delivering a seamless user experience across devices. By implementing a modern tech stack, I ensured optimal performance, scalability, and easy content management for the client.',
+    img: '/openG.png',
+    link: 'https://staging.qantamedia.com/clima-ideal/',
   },
 ]
 
